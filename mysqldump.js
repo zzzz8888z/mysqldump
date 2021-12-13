@@ -1,7 +1,7 @@
 const mysqldump = require('mysqldump')
 const argv = require('minimist')(process.argv.slice(2));
 
-console.info("[*] By: github")
+console.info("[*] By: https://github.com/mycve/mysqldump")
 
 if(argv.h && argv.u&& argv.p&& argv.d&& argv.o){
     const options = {
